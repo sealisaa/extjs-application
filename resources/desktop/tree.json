@@ -1,0 +1,23 @@
+[{
+  "text": "Россия",
+  "children": [{
+    "text": "Москва",
+    "leaf": true
+  }, {
+    "text": "Санкт-Петербург",
+    "leaf": true
+  }, {
+    "text": "Волгоград",
+    "leaf": true
+  }],
+  "leaf": false,
+  "expanded": true
+},
+  {
+    "text": "Украина",
+    "leaf": true
+  },
+  {
+    "text": "Белоруссия",
+    "leaf": true
+  }]

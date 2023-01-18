@@ -33,6 +33,15 @@ Ext.define('ModernApp.view.main.MainViewModel', {
 				url: 'resources/desktop/menu.json'
 			},
 			autoLoad: true
+		},
+		treeData: {
+			type: "tree",
+			proxy: {
+				type: 'ajax',
+				reader: 'json',
+				url: 'resources/desktop/tree.json'
+			},
+			autoLoad: true
 		}
 	}
 });
