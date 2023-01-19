@@ -5,7 +5,8 @@ Ext.define('ModernApp.view.main.Tree', {
 
     requires: [
         'Ext.grid.plugin.CellEditing',
-        'Ext.grid.plugin.Editable'
+        'Ext.grid.plugin.Editable',
+        'Ext.grid.plugin.TreeDragDrop'
     ],
 
     height: 400,
@@ -15,8 +16,11 @@ Ext.define('ModernApp.view.main.Tree', {
         store: '{treeData}'
     },
 
+    rootVisible: true,
+
     plugins: {
-        gridcellediting: true
+        gridcellediting: true,
+        treedragdrop: true
     },
 
     columns: [{

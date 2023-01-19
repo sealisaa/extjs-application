@@ -1,23 +1,19 @@
 [{
-  "text": "Россия",
+  "text": "Папка",
   "children": [{
-    "text": "Москва",
+    "text": "Еще папка",
+    "leaf": false
+  }, {
+    "text": "Файл1",
     "leaf": true
   }, {
-    "text": "Санкт-Петербург",
-    "leaf": true
-  }, {
-    "text": "Волгоград",
+    "text": "Файл2",
     "leaf": true
   }],
   "leaf": false,
   "expanded": true
 },
   {
-    "text": "Украина",
-    "leaf": true
-  },
-  {
-    "text": "Белоруссия",
+    "text": "Файл3",
     "leaf": true
   }]

@@ -9,7 +9,6 @@ Ext.define('ModernApp.view.main.MainView', {
     ],
     layout: 'fit',
     items: [
-        { xtype: 'tree',    reference: 'tree',    docked: 'left' },
         { xtype: 'centerview', reference: 'centerview' },
     ]
 });
